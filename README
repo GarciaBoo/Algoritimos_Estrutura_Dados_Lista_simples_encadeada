@@ -1,4 +1,4 @@
-## Projeto II (SCC0202)
+# Projeto II (SCC0202)
 
 **Autores:**
 - Bruna Azevedo Garcia
@@ -35,11 +35,3 @@ O programa utiliza uma **lista simplesmente encadeada**, conforme apresentado na
 - **Busca Não Ordenada:** Para a função de busca, optamos pela abordagem sequencial, considerando que as palavras-chave não estavam ordenadas. Essa escolha permite flexibilidade para implementar diferentes estilos de busca.
 
 O conjunto de escolhas de estruturas e implementações visa garantir a eficiência e a correção das operações realizadas no programa.
-
-## Como Contribuir
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorias no código ou nas funcionalidades do programa.
-
-## Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE).
