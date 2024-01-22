@@ -8,30 +8,32 @@
 
 **Plataformas utilizadas:** repl.it e vscode
 
-## Objetivo do Programa
+## Objetivo do Projeto
 
-Este programa tem como objetivo gerenciar informações de sites, armazenando dados como código, nome, relevância, link e palavras-chave associadas. A principal funcionalidade consiste na leitura de um arquivo de entrada ("googlebot.txt"), no qual cada linha contém informações de um site, e a inserção desses dados em uma **lista simplesmente encadeada**.
+O projeto visa gerenciar informações de sites, armazenando dados como código, nome, relevância, link e palavras-chave associadas. A principal funcionalidade consiste na leitura de um arquivo de entrada ("googlebot.txt"), no qual cada linha contém informações de um site, e a inserção desses dados em uma **lista simplesmente encadeada**.
 
-Além disso, o programa oferece diversas funcionalidades através de um menu interativo, permitindo ao usuário realizar operações como inserção, remoção, atualização de relevância, inserção de palavras-chave, busca por palavra-chave, sugestão de sites, e impressão da lista de sites.
+O programa oferece diversas funcionalidades através de um menu interativo, permitindo ao usuário realizar operações como inserção, remoção, atualização de relevância, inserção de palavras-chave, busca por palavra-chave, sugestão de sites e impressão da lista de sites.
 
-As estruturas de dados utilizadas incluem uma **lista simplesmente encadeada** para armazenar os sites e manipular suas informações de forma eficiente. O código busca otimizar o uso de recursos e garantir a correção das operações realizadas, proporcionando uma experiência interativa ao usuário.
+## Estruturas de Dados Utilizadas
+
+O programa utiliza uma **lista simplesmente encadeada**, escolhida pela sua eficiência nas operações de inserção ordenada, remoção e busca. A economia de espaço é otimizada, evitando o uso desnecessário de espaços e garantindo o desempenho adequado do programa.
 
 ## Instruções de Uso
 
-Ao iniciar o programa, será apresentado um menu de opções. Conforme você seleciona uma opção, é possível realizar ações específicas na lista. O programa foi projetado de forma intuitiva, com mensagens de instrução para orientar cada ação.
+Ao iniciar o programa, um menu de opções é apresentado. Conforme o usuário seleciona uma opção, é possível realizar ações específicas na lista. O programa foi projetado de forma intuitiva, com mensagens de instrução para orientar cada ação.
 
 ## Justificativas para Escolhas de Estruturas e Implementações
 
-O programa utiliza uma **lista simplesmente encadeada**, conforme apresentado na disciplina de algoritmos e estrutura de dados I. A escolha dessa estrutura é respaldada pelas seguintes justificativas:
+As escolhas do programa foram fundamentadas nas seguintes justificativas:
 
 - **Eficiência:** A lista simplesmente encadeada proporciona eficiência nas operações de inserção ordenada, remoção e busca.
 
 - **Economia de Espaço:** Evita o uso desnecessário de espaços, otimizando o desempenho do programa.
 
-- **Inserção Ordenada:** A função de inserção foi implementada para ordenar os códigos. Para isso, foi necessário utilizar uma busca interna para encontrar as posições corretas de inserção.
+- **Inserção Ordenada:** A função de inserção foi implementada para ordenar os códigos, utilizando uma busca interna para encontrar as posições corretas de inserção.
 
-- **Remoção e Busca Sequencial:** Utilizamos a abordagem sequencial apresentada em aula para as operações de remoção e busca. Essa escolha demonstrou eficácia no contexto do programa.
+- **Remoção e Busca Sequencial:** A abordagem sequencial foi escolhida para operações de remoção e busca, demonstrando eficácia no contexto do programa.
 
-- **Busca Não Ordenada:** Para a função de busca, optamos pela abordagem sequencial, considerando que as palavras-chave não estavam ordenadas. Essa escolha permite flexibilidade para implementar diferentes estilos de busca.
+- **Busca Não Ordenada:** A busca sequencial foi utilizada para a função de busca, considerando que as palavras-chave não estavam ordenadas, proporcionando flexibilidade para diferentes estilos de busca.
 
 O conjunto de escolhas de estruturas e implementações visa garantir a eficiência e a correção das operações realizadas no programa.
