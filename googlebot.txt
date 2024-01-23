@@ -1,0 +1,14 @@
+0001,YouTube,900,https://www.youtube.com/,podcast,videos,online
+0002,Netflix,700,https://www.netflix.com/br/,filmes,videos,streaming
+0003,Amazon,200,https://www.amazon.com.br/,loja,fotos,gadgets,jogos,cinco,seis,sete,oito
+0004,Linkedin,500,https://www.linkedin.com.br/,startup,vaga
+0005,Disney+,600,https://www.disneyplus.com.br/,videos,disney,filmes
+0006,Twitter,400,https://www.twiiter.com/,post,social
+0007,Facebook,300,https://www.facebook.com/,amigos,post,lifestyle
+0008,Instagram,450,https://www.instagram.com/,post,stories,lifestyle,social
+0009,Tidia-ae,580,https://www.tidia.com/,usp,aula,materias
+0010,JupiterWeb,770,https://www.jupter.com.br/,usp,grade,matricula
+0011,Edisciplinas,100,httsp://edisciplinas.com/,usp,aula,prova
+0012,Steam,950,https://steam.com/,jogos,loja,comunidade
+0013,Shein,200,https://shein.com/,loja,china,roupa
+0014,TelecinePlay,870,https://telecineplay.com/,filmes,videos

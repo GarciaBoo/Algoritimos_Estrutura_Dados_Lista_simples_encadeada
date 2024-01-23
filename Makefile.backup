@@ -1,0 +1,15 @@
+UTIL = lista.c item.c
+MAIN = main.c
+BINARY = exec
+
+all:
+	gcc $(MAIN) $(UTIL) -o $(BINARY) -Wall
+
+run:
+	./$(BINARY)
+	
+debug:
+	valgrind ./$(BINARY)
+
+clean:
+	@rm *.o

@@ -1,0 +1,45 @@
+# Projeto II (SCC0202)
+
+**Autores:**
+- Bruna Azevedo Garcia
+- Hellen Cristine Silva Rosa
+
+**Compilador:** gcc
+
+**Plataformas utilizadas:** repl.it e vscode
+
+## Objetivo do Programa
+
+Este programa tem como objetivo gerenciar informações de sites, armazenando dados como código, nome, relevância, link e palavras-chave associadas. A principal funcionalidade consiste na leitura de um arquivo de entrada ("googlebot.txt"), no qual cada linha contém informações de um site, e a inserção desses dados em uma **lista simplesmente encadeada**.
+
+Além disso, o programa oferece diversas funcionalidades através de um menu interativo, permitindo ao usuário realizar operações como inserção, remoção, atualização de relevância, inserção de palavras-chave, busca por palavra-chave, sugestão de sites, e impressão da lista de sites.
+
+As estruturas de dados utilizadas incluem uma **lista simplesmente encadeada** para armazenar os sites e manipular suas informações de forma eficiente. O código busca otimizar o uso de recursos e garantir a correção das operações realizadas, proporcionando uma experiência interativa ao usuário.
+
+## Instruções de Uso
+
+Ao iniciar o programa, será apresentado um menu de opções. Conforme você seleciona uma opção, é possível realizar ações específicas na lista. O programa foi projetado de forma intuitiva, com mensagens de instrução para orientar cada ação.
+
+## Justificativas para Escolhas de Estruturas e Implementações
+
+O programa utiliza uma **lista simplesmente encadeada**, conforme apresentado na disciplina de algoritmos e estrutura de dados I. A escolha dessa estrutura é respaldada pelas seguintes justificativas:
+
+- **Eficiência:** A lista simplesmente encadeada proporciona eficiência nas operações de inserção ordenada, remoção e busca.
+
+- **Economia de Espaço:** Evita o uso desnecessário de espaços, otimizando o desempenho do programa.
+
+- **Inserção Ordenada:** A função de inserção foi implementada para ordenar os códigos. Para isso, foi necessário utilizar uma busca interna para encontrar as posições corretas de inserção.
+
+- **Remoção e Busca Sequencial:** Utilizamos a abordagem sequencial apresentada em aula para as operações de remoção e busca. Essa escolha demonstrou eficácia no contexto do programa.
+
+- **Busca Não Ordenada:** Para a função de busca, optamos pela abordagem sequencial, considerando que as palavras-chave não estavam ordenadas. Essa escolha permite flexibilidade para implementar diferentes estilos de busca.
+
+O conjunto de escolhas de estruturas e implementações visa garantir a eficiência e a correção das operações realizadas no programa.
+
+## Como Contribuir
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorias no código ou nas funcionalidades do programa.
+
+## Licença
+
+Este projeto é licenciado sob a [MIT License](LICENSE).
